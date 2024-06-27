@@ -7,10 +7,16 @@ import routs from "./routs";
 import { Link } from "react-router-dom";
 import Slider from "../components/Slider";
 import { setLinkActive } from "../components/Navigation";
+import { motion } from "framer-motion";
 
 function Home({ latestShots }) {
   return (
-    <main>
+    <motion.div
+      key="main"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <Container fluid>
         <Row>
           <Col xs={12} xl={6}>
@@ -50,10 +56,10 @@ function Home({ latestShots }) {
                 <h3>Latest shots</h3>
                 <Link
                   to={routs.shots}
-                  className="text-secondary text-decoration-none"
+                  className="link"
                   onClick={() => setLinkActive(routs.shots)}
                 >
-                  View all
+                  View all &rarr;
                 </Link>
               </div>
 
@@ -62,7 +68,7 @@ function Home({ latestShots }) {
           </Col>
         </Row>
       </Container>
-    </main>
+    </motion.div>
   );
 }
 

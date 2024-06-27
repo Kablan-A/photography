@@ -2,3 +2,13 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: $primary;
 }
+
+.link {
+  color: $secondary;
+  text-decoration: none;
+  transition: $transition-base;
+
+  &:hover {
+    transform: translateX(2px);
+  }
+}

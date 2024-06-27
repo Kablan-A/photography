@@ -33,6 +33,8 @@
 @import "~bootstrap/scss/transitions";
 @import "~bootstrap/scss/buttons";
 @import "~bootstrap/scss/spinners";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/forms";
 
 // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "~bootstrap/scss/utilities/api";
@@ -41,3 +43,4 @@
 
 @import "./styles/base.scss";
 @import "./styles/slider.scss";
+@import "./styles/shot.scss";

@@ -21,8 +21,6 @@
   scrollbar-width: none; /* Firefox */
 }
 
-$slide-width-height: 22rem;
-
 .slider {
   display: flex;
   align-self: center;
@@ -33,7 +31,7 @@ $slide-width-height: 22rem;
   scroll-snap-type: x mandatory;
 
   &__item {
-    width: $slide-width-height;
+    width: $img-width-height;
     height: fit-content;
     flex-shrink: 0;
 
@@ -45,8 +43,8 @@ $slide-width-height: 22rem;
   }
 
   &__image {
-    width: $slide-width-height;
-    height: $slide-width-height;
+    width: $img-width-height;
+    height: $img-width-height;
     object-fit: cover;
   }
 }

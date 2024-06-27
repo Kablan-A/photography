@@ -1,0 +1,21 @@
+.shot {
+  width: fit-content;
+  position: relative;
+  cursor: pointer;
+
+  &__title {
+    color: $white;
+    text-align: center;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 50%;
+    transform: translate(-50%, -0.5rem);
+    backdrop-filter: blur(0.5rem);
+    opacity: 0;
+    transition: $transition-base;
+  }
+
+  &:hover &__title {
+    opacity: 1;
+  }
+}

@@ -8,3 +8,13 @@ $navbar-light-brand-color: #fff;
 $navbar-light-brand-hover-color: #fff;
 $navbar-light-active-color: $secondary;
 $navbar-light-hover-color: $secondary;
+
+$modal-content-border-radius: none;
+
+$form-label-color: #fff;
+
+$img-width-height: 22rem;
+.img-width-height {
+  width: $img-width-height;
+  height: $img-width-height;
+}

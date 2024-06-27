@@ -34,19 +34,6 @@ function Slider({ slides }) {
     };
   }, []);
 
-  // useEffect(() => {
-  //   // Get 1rem in px = slider gap
-  //   const getRootFontSize = () => {
-  //     const rootFontSize = window.getComputedStyle(
-  //       document.documentElement
-  //     ).fontSize;
-
-  //     return parseFloat(rootFontSize);
-  //   }
-
-  //   updateSlider("gap", getRootFontSize());
-  // }, []);
-
   const currentSlide = useMemo(() => {
     // console.log(`sliderState.position: ${sliderState.position}`);
     // console.log(`sliderState.width: ${sliderState.width}`);

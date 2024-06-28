@@ -29,12 +29,12 @@ function Navigation() {
         <Navbar.Collapse id="myNav">
           <Nav className="ms-auto" id="navList">
             <Link
-              id={routs.shots}
-              to={routs.shots}
+              id={routs.portfolio}
+              to={routs.portfolio}
               className="nav-link"
               onClick={(ev) => setLinkActive(ev.target.id)}
             >
-              Shots
+              Portfolio
             </Link>
             <Link
               id={routs.contact}

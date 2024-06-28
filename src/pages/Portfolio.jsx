@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import { motion } from "framer-motion";
 import Shot from "../components/Shot";
 
-function Shots({ feed }) {
+function Portfolio({ feed }) {
   return (
     <motion.div
       key="shos"
@@ -27,4 +27,4 @@ function Shots({ feed }) {
   );
 }
 
-export default Shots;
+export default Portfolio;

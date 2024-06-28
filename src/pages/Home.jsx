@@ -55,9 +55,9 @@ function Home({ latestShots }) {
               <div className="col-xl-9 text-white mb-2 d-flex align-items-center justify-content-between">
                 <h3>Latest shots</h3>
                 <Link
-                  to={routs.shots}
+                  to={routs.portfolio}
                   className="link"
-                  onClick={() => setLinkActive(routs.shots)}
+                  onClick={() => setLinkActive(routs.portfolio)}
                 >
                   View all &rarr;
                 </Link>

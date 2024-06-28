@@ -1,6 +1,6 @@
 const routs = {
   home: "/",
-  shots: "/shots",
+  portfolio: "/portfolio",
   contact: "/contact",
 };
 
